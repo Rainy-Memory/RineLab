@@ -6,10 +6,10 @@ run:
 	./RineLab root
 
 init:
-	mkdir a
-	touch a/b
-	mkdir b
-	touch b/a
+	mkdir root/a
+	touch root/a/b
+	mkdir root/b
+	touch root/b/a
 
 clean:
 	rm RineLab
